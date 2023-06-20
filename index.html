@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/Percha.png" type="image/x-icon">
+    <title>Tienda</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-container">
+            <a href=""><img class="logo-img" src="./img/Percha.png" alt=""></a>
+        </div>
+        <div class="navbar-container">
+            <nav class="navbar">
+                <ul class="navbar-items">
+                    <li ><a class="navbar-item" href="">Inicio</a></li>
+                    <li ><a class="navbar-item" href="">Catálogo</a></li>
+                    <li ><a class="navbar-item" href="">Promociones</a></li>
+                    <li ><a class="navbar-item" href="">Info</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cart-container">
+
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main-category-container">
+            <a href="" class="category-item">Todo</a>
+            <a href="" class="category-item">Remeras</a>
+            <a href="" class="category-item">Camperas</a>
+            <a href="" class="category-item">Pantalones</a>
+            <a href="" class="category-item">Calzado</a>
+        </section>
+        <section class="main-products-container">
+            <div class="product-card">
+                <img class="product-img" src="https://elasdeljean.com/wp-content/uploads/2020/05/15883370602464ce466dd5f3dfc9b448444cc10ef3.png" alt="Jean Negro">
+                <div class="product-info-container">
+                    <h2 class="product-name">Jean Negro</h2>
+                    <p class="product-id product-info-item">ID: 1</p>
+                    <p class="product-price product-info-item">Valor: $6500</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="https://http2.mlstatic.com/D_NQ_NP_837023-MLA69580204294_052023-O.webp" alt="Campera Parka">
+                <div class="product-info-container">
+                    <h2 class="product-name">Campera Parka</h2>
+                    <p class="product-id product-info-item">ID: 2</p>
+                    <p class="product-price product-info-item">Valor: $18000</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="https://biffas.com.ar/wp-content/uploads/2021/09/chomba-lima-marino.jpg" alt="Chomba">
+                <div class="product-info-container">
+                    <h2 class="product-name">Chomba</h2>
+                    <p class="product-id product-info-item">ID: 3</p>
+                    <p class="product-price product-info-item">Valor: $3500</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="https://www.grupooxicas.com/242-thickbox_default/zapatilla-calzado-de-seguridad-funcional-mujer-bali-numeros-del-34-al-42.jpg" alt="Zapatillas">
+                <div class="product-info-container">
+                    <h2 class="product-name">Zapatillas</h2>
+                    <p class="product-id product-info-item">ID: 4</p>
+                    <p class="product-price product-info-item">Valor: $37999</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="https://www.thefutbolstore.com.ar/uploads/v2/product/hi/202006_700_A.jpg" alt="Camiseta Futbol">
+                <div class="product-info-container">
+                    <h2 class="product-name">Camiseta de Fútbol</h2>
+                    <p class="product-id product-info-item">ID: 5</p>
+                    <p class="product-price product-info-item">Valor: $17599</p>
+                </div>
+            </div>
+            <div class="product-card">
+                <img class="product-img" src="https://celadasa.vtexassets.com/arquivos/ids/216499-800-auto?v=637993807990500000&width=800&height=auto&aspect=true" alt="Gorro Lana">
+                <div class="product-info-container">
+                    <h2 class="product-name">Gorro de Lana</h2>
+                    <p class="product-id product-info-item">ID: 6</p>
+                    <p class="product-price product-info-item">Valor: $4299</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-operator-container">
+            <button class="operator-add operator-button" onclick="addProduct()">Agregar</button>
+            <button class="operator-remove operator-button" onclick="removeOfCart()">Quitar</button>
+            <button class="operator-calc operator-button " onclick="calTotal()">Calcular Total</button>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
