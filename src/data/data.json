@@ -1,0 +1,119 @@
+[   {
+      "name":"Jogger",
+      "id":1,
+      "price":5699,
+      "type":"Pantalones",
+      "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/041/840/products/601-93e458d626de227ee516790736546527-640-0.jpg",
+      "amount":1
+    },
+    {
+       "name":"Campera Parka",
+       "id":2,
+       "price":18000,
+       "type":"Camperas",
+       "img":"https://http2.mlstatic.com/D_NQ_NP_837023-MLA69580204294_052023-O.webp",
+       "amount":1
+    },
+    {
+       "name":"Chomba",
+       "id":3,
+       "price":3500,
+       "type":"Remeras",
+       "img":"https://biffas.com.ar/wp-content/uploads/2021/09/chomba-lima-marino.jpg",
+       "amount":1
+    },
+    {
+       "name":"Zapatilla De Seguridad Funcional",
+       "id":4,
+       "price":37999,
+       "type":"Calzado",
+       "img":"https://www.grupooxicas.com/242-thickbox_default/zapatilla-calzado-de-seguridad-funcional-mujer-bali-numeros-del-34-al-42.jpg   ",
+       "amount":1
+    },
+    {
+       "name":"Camiseta de Fútbol",
+       "id":5,
+       "price":17599,
+       "type":"Remeras",
+       "img":"https://www.thefutbolstore.com.ar/uploads/v2/product/hi/202006_700_A.jpg",
+       "amount":1
+    },
+    {
+       "name":"Gorro de Lana",
+       "id":6,
+       "price":4299,
+       "type":"Accesorios",
+       "img":"https://celadasa.vtexassets.com/arquivos/ids/216499-800-auto?v=637993807990500000&width=800&height=auto&aspect=true",
+       "amount":1
+    },
+    {
+       "name":"Nike Dunk Low",
+       "id":7,
+       "price":42399,
+       "type":"Calzado",
+       "img":"https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2022/05/20/16530573660117.jpg",
+       "amount":1
+    },
+    {
+       "name":"Buzo Overside",
+       "id":8,
+       "price":12999,
+       "type":"Buzo",
+       "img":"https://http2.mlstatic.com/D_NQ_NP_663762-MLA53684996671_022023-O.webp",
+       "amount":1
+    },
+    {
+       "name":"Remera Verde",
+       "id":9,
+       "price":2499,
+       "type":"Remeras",
+       "img":"https://www.cottonclub.com.ar/pub/media/catalog/product/cache/65e2670acbf1788249a95924f3789a80/0/a/0a1a2803-5a72-4a5a-82d3-a2e89d7069a3.jpg",
+       "amount":1
+    },
+    {
+       "name":"Medias",
+       "id":10,
+       "price":1499,
+       "type":"Accesorios",
+       "img":"https://www.nakaoutdoors.com.ar/img/articulos/2021/11/naturehike_medias_5_dedos_de_coolmax_soquete_4_imagen1.jpg",
+       "amount":1
+    },
+    {
+      "name":"Jean Mom",
+      "id":11,
+      "price":12399,
+      "type":"Pantalones",
+      "img":"https://http2.mlstatic.com/D_NQ_NP_637448-MLA46100345711_052021-O.webp",
+      "amount":1
+    },
+    {
+      "name":"Jean Negro",
+      "id":12,
+      "price":6500,
+      "type":"Pantalones",
+      "img":"https://elasdeljean.com/wp-content/uploads/2020/05/15883370602464ce466dd5f3dfc9b448444cc10ef3.png",
+      "amount":1
+   },
+
+    {
+       "name":"Campera Inflable",
+       "id":13,
+       "price":25999,
+       "type":"Camperas",
+       "img":"https://http2.mlstatic.com/D_NQ_NP_610392-MLA41662219828_052020-O.webp",
+       "amount":1
+    },
+    {
+       "name":"Buzo Adidas",
+       "id":14,
+       "price":19999,
+       "type":"Buzo",
+       "img":"https://ferreira.vtexassets.com/arquivos/ids/384700-800-auto?v=637717358029830000&width=800&height=auto&aspect=true",
+       "amount":1
+    }
+ ]
+
+
+
+
+

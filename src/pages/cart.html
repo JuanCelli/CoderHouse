@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="shortcut icon" href="../img/Percha.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="shortcut icon" href="../../img/Percha.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Tienda</title>
 </head>
 <body>
     <header class="header-container">
         <div class="logo-container">
-            <a href="../index.html"><img class="logo-img" src="../img/Percha.png" alt="Logo Percha"></a>
+            <a href="/index.html"><img class="logo-img" src="../../img/Percha.png" alt="Logo Percha"></a>
         </div>
         <div class="navbar-container">
             <nav class="navbar">
                 <ul class="navbar-items">
-                    <li ><a class="navbar-item" href="../index.html">Inicio</a></li>
+                    <li ><a class="navbar-item" href="../../index.html">Inicio</a></li>
                     <li ><a class="navbar-item" href="">Catálogo</a></li>
                     <li ><a class="navbar-item" href="">Promociones</a></li>
                     <li class="li-cart" ><a class="navbar-item" href="">Carrito</a><p class="amount-cart-navbar"></p></li>
@@ -23,7 +24,6 @@
             </nav>
         </div>
         <div class="cart-container">
-
         </div>
     </header>
 
@@ -34,6 +34,9 @@
     <footer>
 
     </footer>
-    <script src="../index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/routie/0.3.2/routie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="/src/components/cart.mjs"></script>
 </body>
 </html>

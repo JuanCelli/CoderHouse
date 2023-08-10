@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="shortcut icon" href="../../img/Percha.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Finalizar compra</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="logo-container">
+            <a href="/index.html"><img class="logo-img" src="../../img/Percha.png" alt=""></a>
+        </div>
+        <div class="navbar-container">
+            <nav class="navbar">
+                <ul class="navbar-items">
+                    <li ><a class="navbar-item" href="../../index.html">Inicio</a></li>
+                    <li ><a class="navbar-item" href="">Catálogo</a></li>
+                    <li ><a class="navbar-item" href="">Promociones</a></li>
+                    <li class="li-cart"><a class="navbar-item" id="cart-navbar" href="./cart.html">Carrito</a><p class="amount-cart-navbar"></p></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cart-container">
+
+        </div>
+    </header>
+    <div class="main-form-container">
+            <div class="form-container">
+                <h3 >Paso 1 - Tipo de entrega</h3>
+                <div id="form-data">
+                    <div class="div-radio">
+                        <input type="radio" id="domicilio" name="entrega" value="domicilio" checked />
+                        <label for="domicilio">Entrega a domicilio</label>
+                    </div>
+                    
+                    <div class="div-radio">
+                        <input type="radio" id="sucursal" name="entrega" value="sucursal" />
+                        <label for="sucursal">Retiro en sucursal</label>
+                    </div>
+                    
+                    <div class="div-radio">
+                        <input type="radio" id="correo" name="entrega" value="correo" />
+                        <label for="correo">Retiro en central de correo</label>
+                    </div>
+                    <button class="button-form operator-button-form">Continuar</button>
+                </div>
+            </div>
+    </div>
+
+    <footer>
+
+    </footer>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/routie/0.3.2/routie.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="/src/components/form.mjs"></script>
+</body>
+</html>
